@@ -1,0 +1,28 @@
+.header{
+    background-color: $azulClaro;
+}
+
+.barra-header{
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: $azul;
+        font-weight: $regular;
+    }
+    
+    .logo-header{
+    
+        p{
+            margin: 0;
+            font-size: 3.5rem;
+            color: $azul;
+            font-weight: $black;
+        }
+        span{
+            font-size: 4rem;
+        }
+    }
+}

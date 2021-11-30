@@ -1,0 +1,31 @@
+/*************************DEPOSITO***********************/
+.grilla-deposito{
+    display: flex;
+    justify-content: space-around;
+
+    .grilla-deposito-bloque{
+        border: .4rem solid $azul;
+        border-radius: 2rem;
+        width: 100%;
+        margin: 0 2rem 2rem 2rem;
+        
+    }
+
+    h3{
+        padding: 0 1rem;
+        margin: 0;
+        color: $negro;
+    }
+    p{
+        text-align: center;
+        font-size: 5rem;
+        font-weight: $bold;
+        margin: 0;
+    }
+
+    a:hover{
+        background-color: $azulClaro;
+        color: $blanco;
+    }
+}
+

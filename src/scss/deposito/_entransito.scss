@@ -1,0 +1,90 @@
+.alerta{
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    // margin: 1rem 0;
+    
+    &.error{
+        background-color: $rojo;
+    }
+    
+    &.exito{
+        background-color: $verde;
+    }
+
+}
+
+.listado-tabla{
+    width: 100%;
+    margin-top: 1rem;
+    thead{
+        background-color: $azulClaro;
+    }
+
+    td{
+        text-align: center;
+        &a{
+            width: 100%;
+        }
+    }
+}
+
+.item-tabla{
+    tr{
+        &:nth-child(odd){           //las lineas impares van coloreadas
+            background-color: lighten($azulClaro, 20);
+        }
+    }
+
+    input, a{
+        width: 60%;
+        padding: .5rem 2rem;
+        margin: .5rem 2rem;
+    }
+
+    input{
+        height: 4rem;
+    }
+}
+
+.deposito-condicion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listado-tabla-historico{
+    width: 100%;
+    margin: 2rem 0;
+    thead{
+        background-color: $azulClaro;
+    }
+
+    td{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+.item-tabla-historico{
+    tr{
+        &:nth-child(odd){           //las lineas impares van coloreadas
+            background-color: lighten($azulClaro, 20);
+        }
+    }
+
+    input{
+        width: 60%;
+        padding: .5rem 2rem;
+        margin: .5rem 2rem;
+    }
+
+    input{
+        height: 4rem;
+    }
+}
+
+
+
+

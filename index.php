@@ -21,6 +21,7 @@
             <div class="grilla-principal">
                 <div class="vinculos-principal">
                     <a href="admin/index.php">ADMINISTRADOR</a> 
+					
                 </div>
                 <div class="vinculos-principal">
                     <a href="stock/index.php">STOCK</a>

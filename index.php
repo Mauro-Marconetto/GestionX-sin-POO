@@ -15,7 +15,7 @@
     incluirTemplate('','header');
 ?>
 
-    <main class="contenedor">
+    <main class="contenedor PRUEBA">
 
         <?php if($nivelAcceso==1) : ?>
             <div class="grilla-principal">

@@ -97,7 +97,7 @@
    
             }else{
 
-                //Hasheamos password
+                //Hasheamos password.
 
                 $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 

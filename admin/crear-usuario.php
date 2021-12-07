@@ -1,4 +1,6 @@
 <?php
+	//Con POO
+	
     require '../includes/funciones.php';
     $auth=autenticacion();
 
@@ -97,7 +99,7 @@
    
             }else{
 
-                //Hasheamos password
+                //Hasheamos password.
 
                 $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 

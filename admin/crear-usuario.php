@@ -1,5 +1,6 @@
 <?php
-	//
+	//Con POO
+	
     require '../includes/funciones.php';
     $auth=autenticacion();
 

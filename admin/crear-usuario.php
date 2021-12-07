@@ -1,5 +1,5 @@
 <?php
-	//Prueba
+	//
     require '../includes/funciones.php';
     $auth=autenticacion();
 
